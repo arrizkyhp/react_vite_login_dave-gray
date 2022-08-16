@@ -113,3 +113,22 @@ button {
 .line {
   display: inline-block;
 }
+
+.form-control {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-password {
+  position: absolute;
+  color: rgb(107, 107, 107);
+  right: 0;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.show-password :hover {
+  color: #000;
+}
